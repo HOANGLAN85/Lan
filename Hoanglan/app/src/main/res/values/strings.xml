@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">dhlan</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_near">Thư gửi đi</string>
+    <string name="title_draft">Thư nháp</string>
+    <string name="title_save">Tải về</string>
+</resources>

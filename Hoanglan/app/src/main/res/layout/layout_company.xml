@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:background="@drawable/spinner"
+    tools:context=".Activity.LoginActivity">
+    <EditText
+        android:id="@+id/comment"
+        android:layout_weight="2"
+        android:layout_marginTop="5sp"
+        android:textColor="#f01"
+        android:textSize="30sp"
+        android:text="Vui lòng chọn công ty"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgspinner"
+            android:src="@drawable/fa"
+            android:layout_weight="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+        <TextView
+            android:id="@+id/txtspinner"
+            android:text="name"
+            android:textSize="20sp"
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/edtspinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+</LinearLayout>
